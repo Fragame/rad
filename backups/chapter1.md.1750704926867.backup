@@ -1,0 +1,117 @@
+---
+sidebar_position: 2
+---
+
+import VersionTabs from '@site/src/components/VersionTabs';
+
+# Capitolo 1 - L'Inizio del Viaggio
+
+Questo capitolo presenta l'apertura della nostra storia in due versioni distinte.
+
+## La partenza
+
+<VersionTabs>
+  <div label="Versione Originale" default>
+    
+Era una mattina di primavera quando Maria decise di partire. Il sole filtrava attraverso le tende della sua piccola stanza, creando motivi di luce sul pavimento di legno consumato. Aveva preparato lo zaino la sera prima, riempiendolo metodicamente con l'essenziale: alcuni vestiti, un quaderno, una penna, e la fotografia sbiadita di sua nonna.
+
+La casa era silenziosa. I suoi genitori dormivano ancora, ignari della decisione che aveva preso. Sul tavolo della cucina lasciò una lettera, le parole scelte con cura per spiegare ciò che non poteva dire a voce.
+
+"Devo trovare le mie risposte," aveva scritto. "Tornerò quando avrò capito chi sono veramente."
+
+  </div>
+  <div label="Versione Revisionata">
+    
+Il treno delle 5:47 era quasi vuoto. Maria sedeva vicino al finestrino, lo zaino ai suoi piedi, osservando la città che si svegliava. Aveva lasciato casa un'ora prima, scivolando fuori come un'ombra mentre i suoi genitori dormivano ancora.
+
+Non era stata una decisione improvvisa. Ci aveva pensato per mesi, pianificando ogni dettaglio. La lettera sul tavolo della cucina era solo l'ultimo tassello di un piano elaborato con cura. Dentro lo zaino, oltre ai vestiti e al necessario, c'era un diario pieno di appunti, mappe, e l'indirizzo della casa dove sua nonna aveva vissuto cinquant'anni prima.
+
+"Alcune storie devono essere vissute per essere comprese," aveva scritto nella prima pagina del diario. Era il momento di vivere la sua.
+
+  </div>
+</VersionTabs>
+
+## Il primo incontro
+
+<details>
+<summary>🔍 Nota dell'autore sul personaggio di Giovanni</summary>
+
+Il personaggio di Giovanni è stato ispirato da una persona reale che ho incontrato durante i miei viaggi. Ho modificato molti dettagli per proteggere la sua privacy, ma l'essenza del suo carattere - la gentilezza unita a una profonda malinconia - rimane fedele all'originale.
+
+</details>
+
+<VersionTabs>
+  <div label="Versione A">
+    
+Alla stazione di Firenze, Maria incontrò Giovanni. Era un uomo anziano con un cappello di feltro grigio e occhi che sembravano aver visto troppo del mondo. Si sedette di fronte a lei nello scompartimento vuoto.
+
+"Prima volta a Firenze?" chiese con un sorriso gentile.
+
+Maria annuì, stringendo istintivamente lo zaino. Non era abituata a parlare con estranei, ma qualcosa nell'espressione dell'uomo la mise a suo agio.
+
+"Io ci vengo ogni anno," continuò lui. "Stesso giorno, stesso treno. È una specie di pellegrinaggio personale."
+
+  </div>
+  <div label="Versione B">
+    
+Il vecchio salì sul treno a Firenze con movimenti lenti e misurati. Maria lo osservò mentre sistemava con cura una valigia di cuoio consunta nel portabagagli. Quando si sedette di fronte a lei, i loro sguardi si incrociarono per un momento.
+
+"Mi scusi," disse lui, "le dispiace se apro un po' il finestrino? L'aria in questi vagoni diventa pesante dopo un po'."
+
+Maria acconsentì con un cenno. Mentre l'uomo si alzava per aprire il finestrino, notò che aveva le mani di un artista - lunghe e affusolate, con macchie di quello che sembrava inchiostro sotto le unghie.
+
+"È una bella giornata per viaggiare," commentò lui tornando a sedersi. "Anche se suppongo che ogni giorno sia buono quando si sta andando verso qualcosa di importante."
+
+  </div>
+</VersionTabs>
+
+## La rivelazione
+
+Nel corso del viaggio, Giovanni rivelò a Maria un segreto che avrebbe cambiato la direzione della sua ricerca.
+
+<VersionTabs>
+  <div label="Racconto breve">
+    
+"Sua nonna," disse Giovanni dopo un lungo silenzio, "l'ho conosciuta. Molti anni fa, in questo stesso viaggio."
+
+Maria sentì il cuore accelerare. Era possibile? Tra tutti i treni, tutte le persone, aveva incontrato qualcuno che conosceva sua nonna?
+
+"Era una donna straordinaria," continuò. "Mi parlò di un luogo segreto nelle colline toscane. Un posto dove andava per scrivere e pensare. Se sta cercando di capire chi era veramente, forse dovrebbe iniziare da lì."
+
+  </div>
+  <div label="Racconto esteso">
+    
+Giovanni rimase in silenzio per lungo tempo, guardando fuori dal finestrino il paesaggio che scorreva veloce. Maria stava per tornare al suo libro quando lui parlò di nuovo.
+
+"Il cognome sulla sua valigia," disse piano. "Bianchi. Non è un cognome comune da queste parti, nonostante quello che si potrebbe pensare."
+
+Maria lo guardò sorpresa. Non aveva notato che il suo cognome fosse visibile.
+
+"Molti anni fa," continuò Giovanni, "su questo stesso treno, ho incontrato una giovane donna. Si chiamava Elena Bianchi. Aveva i suoi stessi occhi, quello stesso modo di stringere le cose come se potessero scappare via."
+
+Il respiro di Maria si fermò in gola. Elena era il nome di sua nonna.
+
+"Mi raccontò una storia," proseguì l'uomo, "di un rifugio segreto che aveva trovato nelle colline sopra Fiesole. Un vecchio monastero abbandonato dove andava a scrivere. Mi disse che un giorno sua nipote l'avrebbe cercata lì."
+
+Giovanni frugò nella tasca interna della giacca e tirò fuori una busta ingiallita.
+
+"Mi chiese di conservare questo. Disse che avrei saputo quando consegnarlo. Credo che quel momento sia arrivato."
+
+  </div>
+</VersionTabs>
+
+:::note Continua la lettura
+Il viaggio di Maria è appena iniziato. Nel [prossimo capitolo](./chapter2), scopriremo cosa contiene la misteriosa busta e dove la porterà la sua ricerca.
+:::
+
+---
+
+<details>
+<summary>📝 Note di revisione</summary>
+
+### Differenze principali tra le versioni:
+- **Tono narrativo**: La versione originale è più diretta, mentre quella revisionata aggiunge dettagli atmosferici
+- **Sviluppo dei personaggi**: Nella versione B, Giovanni è caratterizzato in modo più dettagliato
+- **Ritmo**: La versione estesa rallenta il ritmo per creare maggiore suspense
+
+</details>

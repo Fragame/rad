@@ -1,0 +1,320 @@
+/**
+ * Book-like typography and styling
+ */
+
+/* Font importazione - scegli uno o più */
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;1,400&family=EB+Garamond:ital,wght@0,400;0,600;1,400&display=swap');
+
+/* Variabili per tema libro */
+:root {
+  --book-font-serif: 'EB Garamond', 'Crimson Text', Georgia, serif;
+  --book-font-size: 1.125rem;
+  --book-line-height: 1.8;
+  --book-paragraph-spacing: 1.5rem;
+  --book-max-width: 42rem;
+  
+  /* Colori carta/seppia */
+  --book-bg-color: #fdfcf8;
+  --book-text-color: #2c2825;
+  --book-accent-color: #8b7355;
+}
+
+[data-theme='dark'] {
+  --book-bg-color: #1a1918;
+  --book-text-color: #e8e6e1;
+  --book-accent-color: #d4a574;
+}
+
+/* Stile generale libro */
+article {
+  max-width: var(--book-max-width);
+  margin: 0 auto;
+  font-family: var(--book-font-serif);
+}
+
+.markdown {
+  font-size: var(--book-font-size);
+  line-height: var(--book-line-height);
+  color: var(--book-text-color);
+}
+
+.markdown p {
+  margin-bottom: var(--book-paragraph-spacing);
+  text-align: justify;
+  text-indent: 1.5em;
+}
+
+/* Prima lettera grande stile libro */
+.first-paragraph {
+  text-indent: 0;
+}
+
+.first-paragraph::first-letter {
+  float: left;
+  font-size: 4em;
+  line-height: 0.8;
+  padding-right: 0.1em;
+  margin-top: 0.1em;
+  font-weight: 600;
+  color: var(--book-accent-color);
+}
+
+/* Dialoghi - SENZA capilettera */
+.dialogue-line {
+  text-indent: 0 !important;
+  margin-left: 2em;
+  margin-bottom: 0.5rem;
+  font-style: italic;
+}
+
+/* IMPORTANTE: Disabilita capilettera per dialoghi */
+.dialogue-line::first-letter {
+  float: none !important;
+  font-size: inherit !important;
+  line-height: inherit !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  font-weight: inherit !important;
+  color: inherit !important;
+  text-shadow: none !important;
+}
+/* Scene breaks */
+.scene-break {
+  text-align: center;
+  margin: 3rem 0;
+  position: relative;
+}
+
+.scene-break::after {
+  content: '◆ ◆ ◆';
+  color: var(--book-accent-color);
+  font-size: 1rem;
+  letter-spacing: 1em;
+}
+
+/* Citazioni e epigrafi */
+blockquote {
+  font-style: italic;
+  border-left: 3px solid var(--book-accent-color);
+  padding-left: 2rem;
+  margin: 2rem 1rem;
+  position: relative;
+}
+
+blockquote::before {
+  content: '"';
+  position: absolute;
+  left: 0.5rem;
+  top: -0.5rem;
+  font-size: 3rem;
+  color: var(--book-accent-color);
+  opacity: 0.3;
+}
+
+/* Titoli capitoli */
+h1 {
+  font-family: var(--book-font-serif);
+  text-align: center;
+  margin: 3rem 0 2rem;
+  font-weight: 400;
+  position: relative;
+  color: var(--book-text-color);
+}
+
+h1::after {
+  content: '';
+  display: block;
+  width: 100px;
+  height: 2px;
+  background: var(--book-accent-color);
+  margin: 1.5rem auto;
+}
+
+/* Note a margine */
+.margin-note {
+  float: right;
+  width: 200px;
+  margin-right: -220px;
+  font-size: 0.85rem;
+  color: var(--ifm-color-emphasis-600);
+  border-left: 2px solid var(--book-accent-color);
+  padding-left: 1rem;
+  font-style: italic;
+}
+
+@media (max-width: 1200px) {
+  .margin-note {
+    float: none;
+    margin: 1rem 0;
+    width: 100%;
+    background: var(--ifm-color-emphasis-100);
+    padding: 1rem;
+    border-left-width: 4px;
+  }
+}
+
+/* Numero pagina simulato */
+.page-number {
+  text-align: center;
+  margin: 4rem 0 2rem;
+  font-size: 0.9rem;
+  color: var(--ifm-color-emphasis-500);
+}
+
+/* Drop caps per inizio capitolo */
+.chapter-start > p:first-of-type::first-letter {
+  float: left;
+  font-size: 1em;
+  line-height: 0.8;
+  padding-right: 0.15em;
+  margin-top: 0.05em;
+  font-weight: 300;
+  color: var(--book-accent-color);
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Animazione sfoglia pagina */
+@keyframes page-turn {
+  0% { transform: rotateY(0deg); opacity: 1; }
+  50% { transform: rotateY(90deg); opacity: 0.5; }
+  100% { transform: rotateY(180deg); opacity: 0; }
+}
+
+.page-transition {
+  animation: page-turn 0.6s ease-in-out;
+}
+
+/* Modalità lettura notturna */
+[data-theme='dark'] article {
+  background: var(--book-bg-color);
+  padding: 2rem 3rem;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+/* Modalità lettura immersiva */
+.reading-mode {
+  --reading-font-size: 100%;
+}
+
+.reading-mode .navbar,
+.reading-mode .theme-doc-sidebar-container,
+.reading-mode .theme-doc-toc-desktop,
+.reading-mode .pagination-nav {
+  display: none !important;
+}
+
+.reading-mode .main-wrapper {
+  margin: 0 !important;
+  max-width: 100% !important;
+}
+
+.reading-mode article {
+  max-width: 50rem;
+  margin: 0 auto;
+  padding: 3rem;
+  font-size: var(--reading-font-size);
+}
+
+/* Temi libro */
+[data-book-theme="sepia"] {
+  --ifm-background-color: #f9f6f0 !important;
+  --ifm-background-surface-color: #fdfaf4 !important;
+  --ifm-font-color-base: #5c4b37 !important;
+  --ifm-color-emphasis-100: #f0e6d6 !important;
+  --ifm-color-emphasis-200: #e6dcc9 !important;
+  --ifm-color-emphasis-300: #d4c4a8 !important;
+  --book-bg-color: #fdfaf4 !important;
+  --book-text-color: #5c4b37 !important;
+}
+
+[data-book-theme="book"] {
+  --book-font-size: 1.2rem;
+  --book-line-height: 1.9;
+  --book-paragraph-spacing: 1.8rem;
+}
+
+[data-book-theme="night"] {
+  --ifm-background-color: #1a1918 !important;
+  --ifm-background-surface-color: #242322 !important;
+  --ifm-font-color-base: #e8e6e1 !important;
+  --ifm-color-emphasis-100: #2a2928 !important;
+  --ifm-color-emphasis-200: #353432 !important;
+  --ifm-color-emphasis-300: #454442 !important;
+  --book-bg-color: #1a1918 !important;
+  --book-text-color: #e8e6e1 !important;
+}
+
+/* Fix per i temi in dark mode */
+[data-theme='dark'][data-book-theme="sepia"] {
+  --ifm-background-color: #f9f6f0 !important;
+  --ifm-font-color-base: #5c4b37 !important;
+}
+
+
+/* Note - più in alto */
+[title="Note personali"] {
+  bottom: 200px !important;
+}
+
+/* Audio - al centro */
+[title*="lettura audio"] {
+  bottom: 130px !important;
+}
+
+/* Modalità lettura - in basso */
+[title*="Modalità Lettura"] {
+  bottom: 60px !important;
+}
+
+/* Oppure disposizione orizzontale */
+.floating-buttons-horizontal {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  gap: 10px;
+  z-index: 100;
+}
+
+.floating-buttons-horizontal button {
+  position: static !important;
+}
+/* Tema Seppia */
+[data-reading-theme="sepia"] {
+  background: #f4f1e8 !important;
+  color: #5c4b37 !important;
+}
+
+[data-reading-theme="sepia"] article {
+  background: #faf8f3;
+  box-shadow: 0 0 30px rgba(0,0,0,0.1);
+}
+
+/* Tema Notte */
+[data-reading-theme="night"] {
+  background: #1a1a1a !important;
+  color: #e0e0e0 !important;
+}
+
+[data-reading-theme="night"] article {
+  background: #222;
+  color: #e0e0e0;
+  box-shadow: none;
+}
+
+/* Tema Alto Contrasto */
+[data-reading-theme="high-contrast"] {
+  background: #000 !important;
+  color: #fff !important;
+}
+
+[data-reading-theme="high-contrast"] article {
+  background: #000;
+  color: #fff;
+}
+
+[data-reading-theme="high-contrast"] a {
+  color: #ffff00 !important;
+  text-decoration: underline !important;
+}

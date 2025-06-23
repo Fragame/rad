@@ -1,0 +1,127 @@
+---
+sidebar_position: 3
+---
+
+import VersionTabs from '@site/src/components/VersionTabs';
+
+# Capitolo 1 - Versione Alternativa: Il Diario Segreto
+
+*Questa versione del Capitolo 1 è narrata attraverso le pagine del diario di Maria.*
+
+## 15 Marzo - La decisione
+
+<VersionTabs>
+  <div label="Mattina" default>
+
+### Ore 6:00
+
+Non ho dormito. Le valigie sono pronte, nascoste sotto il letto. Mamma e papà non sospettano nulla. Come potrei spiegare loro questa urgenza che sento nel petto? Questo bisogno di partire, di cercare, di capire?
+
+La foto della nonna è sul comodino. La guardo e mi chiedo se anche lei, alla mia età, sentiva questo richiamo. Questa voce che sussurra: "C'è di più. Vai a cercarlo."
+
+### Ore 7:30
+
+Ho lasciato la lettera. Le mie mani tremavano mentre la posavo sul tavolo della cucina. Spero che capiscano. Spero che un giorno potrò tornare e raccontare loro cosa ho trovato.
+
+Il taxi aspetta fuori. È ora.
+
+  </div>
+  <div label="Sera">
+
+### Ore 20:00
+
+Sono sul treno da ore. La città è ormai un ricordo lontano, sostituito da colline e campi che non ho mai visto prima. Mi sento piccola e grande allo stesso tempo. Piccola di fronte all'immensità del mondo che si apre davanti a me, grande per il coraggio di averlo affrontato.
+
+Ho conosciuto un uomo oggi. Giovanni, si chiama. Ha gli occhi di chi ha vissuto molte vite in una sola. Quando gli ho detto il mio cognome, qualcosa è cambiato nella sua espressione. Come se avesse visto un fantasma.
+
+"Bianchi," ha ripetuto piano. "Elena Bianchi."
+
+Il cuore mi si è fermato. Come faceva a conoscere il nome della nonna?
+
+  </div>
+</VersionTabs>
+
+## 16 Marzo - La rivelazione
+
+<details>
+<summary>💭 Riflessioni private di Maria</summary>
+
+*[Questa sezione contiene pensieri intimi che Maria ha annotato a margine del suo diario]*
+
+Non posso credere che sia tutto vero. Eppure la busta è qui, tra le mie mani. L'inchiostro è sbiadito ma riconosco la calligrafia della nonna. Come è possibile che abbia previsto questo momento? Che abbia saputo che un giorno sarei partita per cercarla?
+
+</details>
+
+<VersionTabs>
+  <div label="Prima stesura">
+
+### Ore 10:00 - Caffè della stazione di Firenze
+
+Giovanni mi ha dato una busta. Dentro c'era una mappa disegnata a mano e una chiave arrugginita. La mappa mostra un sentiero che parte da Fiesole e sale verso le colline. C'è una X segnata vicino a quello che sembra un vecchio edificio.
+
+"Sua nonna mi disse che avrebbe capito," ha detto Giovanni prima di andarsene. "Mi disse che il sangue chiama il sangue, e che un giorno saresti venuta a cercare le tue radici."
+
+Non so cosa mi aspetta lassù tra le colline, ma so che devo andare.
+
+  </div>
+  <div label="Versione riflessiva">
+
+### Ore 22:00 - Camera d'albergo, Fiesole
+
+Non riesco a dormire. La chiave è sul comodino e sembra brillare alla luce della luna. Continuo a ripensare alle parole di Giovanni, al modo in cui i suoi occhi si sono riempiti di lacrime quando ha tirato fuori la busta.
+
+"Promisi a Elena che avrei aspettato," mi ha detto. "Cinquant'anni. Ogni anno, lo stesso giorno, lo stesso treno. Sapevo che prima o poi saresti arrivata."
+
+La mappa è stesa sul letto. Il sentiero sembra chiaro, anche se disegnato da una mano ormai lontana nel tempo. Domani all'alba partirò. Domani, forse, capirò perché la nonna ha orchestrato tutto questo. Perché ha lasciato che fossi io a scegliere di partire, sapendo che sarei arrivata esattamente dove voleva lei.
+
+C'è una frase scritta sul retro della mappa: "La verità non si eredita, si conquista."
+
+Domani inizierò la mia conquista.
+
+  </div>
+</VersionTabs>
+
+## La lettera nascosta
+
+All'interno della busta, oltre alla mappa, Maria trova una lettera sigillata con l'istruzione: "Da aprire solo quando avrai trovato il luogo."
+
+<VersionTabs>
+  <div label="I dubbi di Maria">
+
+### Ore 23:30
+
+La tentazione di aprire la lettera è fortissima. La tengo tra le mani, sento la carta spessa sotto le dita. Potrei aprirla ora, leggere cosa c'è scritto, prepararmi a quello che mi aspetta.
+
+Ma la nonna ha aspettato cinquant'anni. Giovanni ha aspettato cinquant'anni. Posso aspettare anch'io un altro giorno.
+
+Mi chiedo cosa ci sia di così importante in quel luogo tra le colline. Cosa voleva che trovassi? O forse la domanda giusta è: cosa voleva che diventassi nel cercarlo?
+
+  </div>
+  <div label="La decisione">
+
+### Ore 00:00 - Mezzanotte
+
+Ho preso la mia decisione. Non aprirò la lettera fino a quando non avrò raggiunto il luogo segnato sulla mappa. La nonna aveva le sue ragioni, e io le rispetterò.
+
+Ho preparato lo zaino per domani:
+- Acqua e cibo per un giorno
+- La mappa e la chiave
+- Il mio diario
+- La lettera sigillata
+- Una torcia (il sentiero potrebbe essere oscuro)
+- Il coraggio che non sapevo di avere
+
+Domani non sarà solo una camminata tra le colline. Sarà un pellegrinaggio verso me stessa, verso la mia storia, verso risposte che forse non sapevo nemmeno di cercare.
+
+  </div>
+</VersionTabs>
+
+---
+
+:::tip Nota per il lettore
+Il formato del diario offre una prospettiva più intima sul viaggio interiore di Maria. Le date e gli orari aiutano a seguire il flusso emotivo del suo percorso.
+:::
+
+:::info Prossimo capitolo
+Nel [Capitolo 2](./chapter2), seguiremo Maria mentre si avventura tra le colline di Fiesole, seguendo la mappa misteriosa lasciata da sua nonna.
+:::
