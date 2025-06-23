@@ -160,7 +160,7 @@ Tobia...
 ---
 
 :::info INFO
-Nel [prossimo capitolo](./chapter7), 
+Nel [prossimo capitolo](./chapterx), 
 :::
 
 <details>
