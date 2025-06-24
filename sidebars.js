@@ -31,6 +31,11 @@ const sidebars = {
         'chapter4',
         'chapter5',
         'chapter6',
+		'chapter7',
+		'chapter8',
+		'chapter9',
+		'chapter10',
+		'chapter11',
 		],
     },
     {
