@@ -1,0 +1,137 @@
+---
+sidebar_position: 2
+---
+import { Epigraph, Dialogue, Thought, SceneBreak, Letter, MarginNote, Annotation, DropCap, AuthorNote } from '@site/src/components/BookComponents';
+import ReadingMode from '@site/src/components/ReadingMode';
+import VersionTabs from '@site/src/components/VersionTabs';
+
+# L'Antefatto
+<Epigraph 
+  text="Il viaggio di mille miglia inizia con un singolo passo." 
+  author="Lao Tzu" 
+/>
+
+## La Notte del Ballo
+<DropCap>
+
+</DropCap>
+<VersionTabs>
+  <div label="Versione Originale" default>
+<MarginNote>
+Note a margine.
+</MarginNote>
+Mi chiamo Tobia Peterson, e all'epoca credevo che quella dovesse essere la notte più importante della mia vita. Col sennò di poi, lo fù.
+Stavo davanti allo specchio del bagno, aggiustandomi per l'ennesima volta il papillon. Le mani mi tremavano leggermente mentre cercavo di domare i capelli castani ribelli.
+"Questo è il momento," pensai, fissando il mio riflesso negli occhi nocciola. "Il mio primo appuntamento con la ragazza di cui sono innamorato da quando eravamo bambini. Non riesco ancora a credere di aver trovato il coraggio di invitare Lindsey al ballo."
+Il cuore mi martellava nel petto come se volesse uscire. Afferrai il mazzo di rose bianche dal bancone - forse era troppo? No, Lindsey meritava il meglio.
+"Cavolo... non riesco a credere che abbia detto di sì!" Un sorriso nervoso mi attraversò il viso mentre ripensavo a quel momento, una settimana prima, quando con voce tremante le avevo chiesto di essere la mia accompagnatrice.
+Sentivo il sudore iniziare a formarsi sulla fronte nonostante l'aria condizionata. "Dovrei rilassarmi," mi dissi.
+Ma non ci riuscii. Come avrei potuto? Lindsey Morrison - bionda, bellissima, capitano delle cheerleader - aveva accettato di andare al ballo con me, Tobia Peterson, fotografo del giornalino scolastico.
+"Dovrei aver portato questi fiori? Forse ho esagerato un po'..." Guardai il mazzo, improvvisamente insicuro.
+Mi diedi uno schiaffo mentale. "Dai, Tobia... rimettiti in sesto. Ti stai comportando come una ragazzina."
+Ma mentre guidavo verso il luogo del ballo, un dubbio iniziò a insinuarsi. "La domanda è... sono nervoso per l'appuntamento... o per il fatto che dovrebbe incontrarmi qui e non ha risposto alle mie chiamate o messaggi?"
+Controllai il telefono per la decima volta. Nessuna risposta. L'ultimo messaggio era il mio di due ore prima: "Ehi! Non vedo l'ora di vederti stasera! Ci vediamo all'ingresso alle 8?"
+Letto. Non risposto.
+"Verrà... giusto?" La domanda mi tormentava mentre parcheggiavo. "Al diavolo. Andiamo!"
+La sala da ballo della scuola era già in pieno fermento. La musica pulsava attraverso gli altoparlanti mentre coppie di adolescenti si muovevano sulla pista. Un'eccessiva quantità di macchina del fumo creava un'atmosfera surreale.
+"Che diavolo è tutta questa nebbia? Sembra di essere in uno strip club," pensai, agitando una mano davanti al viso per vedere meglio.
+Almeno la musica era decente - un mix di successi pop e qualche classico. L'atmosfera prometteva bene. "Questa sarà una bella serata!" Mi dissi, cercando di rimanere ottimista.
+"Amico, ce l'hai fatta! Sei elegantissimo, compare!"
+Mi voltai per vedere il mio buon amico e compagno di squadra di basket, Hao Long, che si avvicinava con il suo solito ghigno. Come sempre, Hao aveva interpretato il dress code a modo suo - smoking sì, ma con sneakers arancioni fluorescenti.
+"Grazie! Tu sembri piuttosto, uh... esattamente come mi aspettavo, in realtà," risposi, notando qualcosa di strano. "Che diavolo è quello? Nel tuo naso?"
+"Bacchette, ovviamente," rispose con nonchalance. "Ho sentito che più tardi serviranno sushi."
+Lo fissai incredulo. "È... igienico. Hai visto Lindsey?"
+"Chi...? Oh, Lindsey!" Il suo viso si illuminò di comprensione. "È la ragazza che ti piace, giusto?"
+Hao si guardò intorno teatralmente. "Non posso dire di averla vista però. Mi dispiace, amico."
+"Già... è lei. È la mia accompagnatrice, in realtà," ammisi, cercando di sembrare casual nonostante l'ansia crescente.
+"Tobia si scopa Lindsey!?" Hao praticamente urlò, attirando sguardi. "È leggendario, amico mio! Io non sono venuto con nessuno ma ho intenzione di venire in qualcuno, se capisci cosa intendo."
+Fece una pausa per effetto drammatico. "Io molto arrapato!"
+Sospirai internamente. Hao e la sua totale mancanza di filtri. "Oh, sì. È... bello. Comunque grazie per l'aiuto, Hao. Devo continuare a cercare. Ci vediamo dopo!"
+Mi allontanai rapidamente, riprendendo la mia ricerca sempre più disperata. "Deve essere qui da qualche parte... giusto? Dovevamo incontrarci venti minuti fa..."
+Controllai di nuovo il telefono. Ancora niente. "Non farti prendere dal panico. Probabilmente è solo in ritardo. Sono sicuro che è per questo che non può rispondere alle mie chiamate."
+
+Ma i minuti diventarono un'ora. I miei messaggi rimanevano non letti ora, nemmeno più visualizzati. Mentre la prima canzone lenta della serata iniziava a suonare, la terribile realizzazione mi colpì come un pugno allo stomaco.
+"Mi ha... mi ha dato buca," sussurrai, la voce che si spezzava. "Non posso credere che Lindsey mi abbia piantato. Che cazzo?"
+Mi appoggiai contro il muro, i fiori ormai appassiti nella mia mano sudata. "Ma perché? Ho detto qualcosa di sbagliato?"
+Guardai impotente mentre i miei compagni trovavano partner per il ballo lento, completamente ignari della mia crisi esistenziale. Coppie che si abbracciavano, che ridevano, che vivevano il loro momento perfetto mentre il mio si sgretolava.
+"Fanculo," pensai amaramente. "Finisco solo il mio drink e poi me ne vado a casa. Questa è una stronzata."
+Ma mentre scansionavo la sala un'ultima volta nella vana speranza di trovare Lindsey, qualcos'altro catturò la mia attenzione...
+  </div>
+  <div label="Versione Revisionata">
+    
+a
+
+  </div>
+</VersionTabs>
+
+<SceneBreak />
+
+<details>
+<summary>History</summary>
+
+My name is... Tobia Peterson.
+(This is it. My first date with the girl I've had a crush on since we were kids. I can't believe I actually had the courage to ask Lindsey to prom.)
+(Hell... I can't believe she said yes!)
+(It feels like my heart is going to jump out of my chest and I'm starting to get sweaty. I should relax.)
+Narrator You should... but you don't.
+Tobia (Should I have brought these flowers? Maybe I overdid it a little...)
+Tobia (Alright, Tobia... get it together. You're acting like a schoolgirl)
+Tobia (The question is... am I nervous because of my date... or the fact that she's supposed to be meeting me here and hasn't answered my calls or texts?)
+Tobia (She'll be here... right?)
+Tobia (Screw it. Let's go!)
+Tobia...
+Narrator Your high school prom is well on its way and most of the attendees have already started to dance.
+Tobia (What's with all the fog? It's like a strip club in here.)
+Tobia (The music's nice, at least. This is going to be a good night!)
+Hao Duude, you made it! You're looking sharp, pal.
+Tobia (My good friend and teammate, "Hao Long," I see he's in typical form tonight.)
+Tobia Thanks! You're looking pretty, uh... pretty moch exactly like I expected you'd look, actually. What the hell is that? In your nose?
+Hao Chopsticks, obviously. I heard they're serving sushi later.
+Tobia That's... sanitary. Have you seen Lindsey?
+Hao Who..? Oh, Lindsey!! That's the girl you like, right?
+Hao Can't say I've seen her though. I'm sorry, buddy.
+Tobia Yeah... that's the one. She's my date, actually.
+Hao Tobia's fucking Lindsey!? That's legendary, my friend. I didn't come with anyone but I olan to cum in someone If you know what I'm saying.
+Hao Me so horny!
+Tobia Oh, yeah. That's... nice. Anyways thank you for the help, Hao. I gotta keep looking around. I'll talk to you later!
+Tobia (She has to be here somewhere... right? We were supposed to meet twenty minutes Q90...)
+Tobia (Don't panic. She's probably just running behind. I'm sure that's why she can't answer my calls.)
+Narrator Soon... a few minutes becomes an hour and your texts go unanswered. Although you cling to denial... the sound of the night's first slow song comes with the haunting realization that it's winding down to an end.
+Tobia (She... she stiffed me. I... I can't believe Lindsey stood me up. What the fuck?)
+Tobia (But why? Did I say something wrong?)
+Narrator You watch helplessly as your peers find dance partners... blissfully onaware of your existential crisis.
+Tobia (Fock it. I'm jost going to finish my drink then head home. This is bullshit.)
+Narrator But as you scan the room once more in hopes of finding your date, something else catches your eye.
+
+
+</details>
+
+<VersionTabs>
+  <div label="Versione A">
+    
+A
+
+  </div>
+  <div label="Versione B">
+    
+B
+
+  </div>
+</VersionTabs>
+
+
+:::note Continua la lettura
+Il viaggio è appena iniziato. Nel [prossimo capitolo](./chapter2), .
+:::
+
+---
+
+<details>
+<summary>📝 Note di revisione</summary>
+
+### Differenze principali tra le versioni:
+- **Tono narrativo**: La versione originale è più diretta, mentre quella revisionata aggiunge dettagli atmosferici
+- **Sviluppo dei personaggi**: Nella versione B, Giovanni è caratterizzato in modo più dettagliato
+- **Ritmo**: La versione estesa rallenta il ritmo per creare maggiore suspense
+
+</details>
